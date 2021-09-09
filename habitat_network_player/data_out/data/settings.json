@@ -1,0 +1,221 @@
+{
+    "dataset": {
+        "ref": "id=woot_reqd_for_search"
+    },
+    "settings": {
+        "theme": "light",
+        "backgroundColor": "#ffffff",
+        "labelColor": "#000000",
+        "labelOutlineColor": "#ffffff",
+        "selectionData": {
+            "genCount": 0,
+            "selections": []
+        },
+        "lastViewedSnap": "reqd-snap-id",
+        "layouts": {}
+    },
+    "player": {
+        "settings": {
+            "fontClass": "Roboto",
+            "showModal": true,
+            "simpleSplash": true,
+            "showHeader": true,
+            "headerType": "simple",
+            "shareTitle": "Check out this map",
+            "shareTitleCompare": "Check out my node",
+            "shareTitleSelect": "Check out these nodes",
+            "shareEnableSelect": false,
+            "showExportBtn": true,
+            "facebookShare": false,
+            "twitterShare": false,
+            "colorTheme": "light",
+            "showPanels": true,
+            "showSearch": true,
+            "showTimeline": true,
+            "showSnapDescrs": true,
+            "infoClickToParent": false,
+            "showSnapTooltips": false,
+            "panelLayoutType": "interactive",
+            "autoPlay": false,
+            "snapTransition": "tween",
+            "snapDuration": 10,
+            "timelineType": "bottom",
+            "totalDuration": 1000,
+            "headerTitle": "Creative Habits Network",
+            "headerImageUrl": "",
+            "headerHtml": "<h1>map header</h1>",
+            "highlightColor": "#e21186",
+            "modalDescription": "<h3>How to Navigate this Network:</h3><ul>                            <li>Click on any node to to see more details about it. </li>                            <li>Click the '<b>Reset</b>' button to clear any selection.</li>                            <li>Use the <b>Filters</b> panel to select nodes by any combination of attributes. </li>                            <li>Click the <b>'Apply'</b> button to subset the data to the selected nodes -                             The <b>Filters</b> panel will then show a summary of that selection.<br/></li>                            <li>Use the <b>List</b> panel to see a sortable list of any nodes selected.                             You can also browse their details in the list by clicking on them.</li>                            <li>Use the Snapshots panel to see a description of the current view.</li></ul>                            <p><br/></p><p>                            This visualization is not optimized for mobile devices and is best viewed in Chrome or Safari browsers\\                             on the laptop/desktop. </p>&#10;",
+            "modalBackground": "",
+            "modalLogo": "",
+            "modalSubtitle": "<p>This is a network of Creative Habits - or creative preferences and tendencies - from a survey of ~10,000 people.                             Each node is a 'Habit', and they are linked to other Habits with the most overlap in people that have them.                             The clusters of habits show broad themes in combinations of Creative Habits that tend to go together.                             </p>                            <p>NOTE - This visualization is designed for desktop viewing and has not been optimized for mobile.                             It works best in Chrome or Safari. </p>",
+            "searchAlg": "matchSorter",
+            "modalTitle": "Creative Habits Network",
+            "modalIntroHtml": "<h1>document_network_test</h1><div>Each of the 1000 nodes in this mapp represents ...</div><div>They are linked with each other if they are similar across the following attributes</div><div>a) Attribute 1</div><div>b) Attribute 2</div><h1></h1>",
+            "allowJoin": false,
+            "startPage": "filter"
+        }
+    },
+    "snapshots": [
+        {
+            "id": "f4cfe528-b583-441b-b245-acd5ea9199fd",
+            "descr": "<p>This is a network of the Creative Habits - creative preferences or tendencies - linked if they tend to co-occur in similar sets of people.                             The colored clusters are emergent groups of Creative Habits that tend to co-occur  with one another  than expected by chance.                             The clusters are labeled by the most 'Central' Creative Habits of the cluster - which are defined as                             Habits with many links to others in the same cluster.                             Thicker links indicate stronger overlap in the people that share a given pair of Creative Habits.                             The spatial layout of nodes and clusters was determined with t-SNE so that nodes and clusters which are more interlinked                             tend to be closer to one another in space.                             Habits on the periphery with few weak links tend to be more randomly distributed across people                             than Habits with more or thicker links.                             The Creative Habits tend to sort horizontally into more 'deliberate' creative style preferences on the left and                             more 'open' creative style preferences on the right.</p>                <p>If you hover over individual Creative Habit tags in the <b>Filters</b> panel, you can see broader themes in creative preferences,                     for example, people on the left tend to have a more 'deliberate' creative style, while those to the right                     tend to have a more 'open' creative style.                 If you <i>Apply</i> any selection, the <b>Filters</b> panel will summarize the top creative habits for the selected group.                 </p>                <p><b>Node Color: </b>Creative Habit Cluster</p><p>                <b>Node Size:</b>  Cluster Archetype: Larger habits were are more central, or archetypal of the cluster</p>",
+            "snapName": "Creative Habit Clusters",
+            "subtitle": "Clusters of habits that tend to co-occur",
+            "summaryImg": "https://www.dl.dropboxusercontent.com/s/1jdc4hvp5zw6as9/Screen%20Shot%202021-03-31%20at%206.59.23%20AM.png?dl=0",
+            "isEnabled": true,
+            "isDeleted": false,
+            "camera": {
+                "normalizeCoords": true,
+                "r": 1.3347904373327948,
+                "x": 0,
+                "y": 0
+            },
+            "layout": {
+                "plotType": "scatterplot",
+                "xaxis": "x_tsne",
+                "yaxis": "y_tsne",
+                "settings": {
+                    "drawNodes": true,
+                    "borderRatio": 0.15,
+                    "bigOnTop": false,
+                    "nodeImageShow": false,
+                    "nodeImageAttr": "Picture",
+                    "nodeUnselectedOpacity": 0.25,
+                    "nodeHighlightRatio": 1.2,
+                    "nodeHighlightBorderOffset": 6,
+                    "nodeHighlightBorderWidth": 1,
+                    "nodeSelectionRatio": 1.2,
+                    "nodeSelectionBorderOffset": 0,
+                    "nodeSelectionBorderWidth": 3,
+                    "nodeSelectionDegree": 1,
+                    "nodePopSize": 10,
+                    "nodePopImageShow": true,
+                    "nodePopImageAttr": "Photo",
+                    "nodePopShow": false,
+                    "nodePopDelay": 1500,
+                    "nodePopRepositionNeighbors": "true,",
+                    "drawEdges": true,
+                    "edgeDirectional": true,
+                    "edgeTaper": false,
+                    "edgeTaperScale": 0.5,
+                    "edgeSaturation": 1,
+                    "edgeUnselectedOpacity": 0.2,
+                    "edgeDirectionalRender": "outgoing",
+                    "drawLabels": true,
+                    "drawGroupLabels": false,
+                    "labelColor": "#000000",
+                    "labelOutlineColor": "#ffffff",
+                    "labelSize": "proportional",
+                    "labelScale": 1,
+                    "labelSizeRatio": 0.5,
+                    "defaultLabelSize": 12,
+                    "minLabelSize": 12,
+                    "maxLabelSize": 16,
+                    "labelThreshold": 1,
+                    "labelMaxCount": 300,
+                    "labelDefaultShow": true,
+                    "labelAttr": "OriginalLabel",
+                    "labelHoverAttr": "OriginalLabel",
+                    "labelDegree": 0,
+                    "labelOpacity": 1,
+                    "labelUnselectedOpacity": 0,
+                    "zoomLock": false,
+                    "panLock": false,
+                    "maxZoomLevel": 10,
+                    "minZoomLevel": -10,
+                    "savedZoomLevel": -2,
+                    "zoomingRatio": 1.7,
+                    "mouseZoomDuration": 500,
+                    "xAxShow": false,
+                    "yAxShow": false,
+                    "xAxTickShow": true,
+                    "yAxTickShow": true,
+                    "xAxLabel": "",
+                    "yAxLabel": "",
+                    "xAxTooltip": "",
+                    "yAxTooltip": "",
+                    "invertX": false,
+                    "invertY": false,
+                    "scatterAspect": 0.6,
+                    "mapboxMapID": "mapbox/light-v10",
+                    "nodeSizeStrat": "attr",
+                    "nodeSizeAttr": "ClusterCentrality",
+                    "nodeSizeScaleStrategy": "linear",
+                    "nodeSizeScaleInvert": false,
+                    "nodeSizeDefaultValue": 10,
+                    "nodeSizeMin": 4,
+                    "nodeSizeMax": 20,
+                    "nodeSizeMultiplier": 0.8,
+                    "nodeColorStrat": "attr",
+                    "nodeColorAttr": "Most Central Habits",
+                    "nodeColorScaleStrategy": "linear",
+                    "nodeColorScaleInvert": false,
+                    "nodeColorScaleExponent": 2.5,
+                    "nodeColorScaleBase": 10,
+                    "nodeColorDefaultValue": "rgb(200,200,200)",
+                    "nodeColorCycleCategoryColors": true,
+                    "nodeColorPaletteNumeric": [
+                        {
+                            "col": "#ee4444"
+                        }
+                    ],
+                    "nodeColorPaletteOrdinal": [
+                        {
+                            "col": "#2aadbf"
+                        },
+                        {
+                            "col": "#f06b51"
+                        },
+                        {
+                            "col": "#fbb44d"
+                        },
+                        {
+                            "col": "#cd4747"
+                        },
+                        {
+                            "col": "#1a7480"
+                        },
+                        {
+                            "col": "#8c55aa"
+                        },
+                        {
+                            "col": "#539280"
+                        },
+                        {
+                            "col": "#bdbdbd"
+                        }
+                    ],
+                    "edgeSizeStrat": "attr",
+                    "edgeSizeAttr": "weight",
+                    "edgeSizeScaleStrategy": "linear",
+                    "edgeSizeScaleInvert": false,
+                    "edgeSizeDefaultValue": 0.2,
+                    "edgeSizeMin": 0.1,
+                    "edgeSizeMax": 10,
+                    "edgeSizeMultiplier": 0.8,
+                    "edgeColorStrat": "gradient",
+                    "edgeColorAttr": "OriginalColor",
+                    "edgeColorScaleStrategy": "linear",
+                    "edgeColorScaleInvert": false,
+                    "edgeColorScaleExponent": 2.5,
+                    "edgeColorScaleBase": 10,
+                    "edgeColorDefaultValue": "rgb(200,200,200)",
+                    "edgeColorCycleCategoryColors": true,
+                    "edgeColorPaletteNumeric": [
+                        {
+                            "col": "#cceeee"
+                        }
+                    ],
+                    "edgeColorPaletteOrdinal": [
+                        {
+                            "col": "#cc6600"
+                        }
+                    ],
+                    "isGeo": false,
+                    "edgeCurvature": 0
+                }
+            }
+        }
+    ]
+}

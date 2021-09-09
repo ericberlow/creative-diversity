@@ -1,0 +1,1186 @@
+{
+    "_id": "id=woot_reqd_for_search",
+    "attrDescriptors": [
+        {
+            "id": "id",
+            "title": "id",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "integer",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Creative Habit",
+            "title": "Creative Habit",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": true,
+            "attrType": "string",
+            "renderType": "wide-tag-cloud",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Most Central Habits",
+            "title": "Most Central Habits",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": true,
+            "attrType": "string",
+            "renderType": "wide-tag-cloud",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Frequency",
+            "title": "Frequency",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "integer",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Percent",
+            "title": "Percent",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Cluster_size",
+            "title": "Cluster_size",
+            "visible": true,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "integer",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Degree",
+            "title": "Degree",
+            "visible": true,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "integer",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "ClusterCentrality",
+            "title": "ClusterCentrality",
+            "visible": true,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "ClusterBridging",
+            "title": "ClusterBridging",
+            "visible": true,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "Cluster_ID",
+            "title": "Cluster_ID",
+            "visible": true,
+            "visibleInProfile": true,
+            "searchable": true,
+            "attrType": "string",
+            "renderType": "wide-tag-cloud",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "label",
+            "title": "label",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "string",
+            "renderType": "wide-tag-cloud",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "x_tsne",
+            "title": "x_tsne",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "y_tsne",
+            "title": "y_tsne",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "OriginalLabel",
+            "title": "OriginalLabel",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "string",
+            "renderType": "wide-tag-cloud",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "OriginalX",
+            "title": "OriginalX",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "OriginalY",
+            "title": "OriginalY",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "float",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        },
+        {
+            "id": "OriginalSize",
+            "title": "OriginalSize",
+            "visible": false,
+            "visibleInProfile": false,
+            "searchable": false,
+            "attrType": "integer",
+            "renderType": "histogram",
+            "metadata": {
+                "descr": "",
+                "maxLabel": "",
+                "minLabel": ""
+            },
+            "overlayAnchor": ""
+        }
+    ],
+    "datapoints": [
+        {
+            "id": "0",
+            "attr": {
+                "id": 0,
+                "Creative Habit": "Collaborator",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 2864,
+                "Percent": 29.73,
+                "Cluster_size": 18,
+                "Degree": 5,
+                "ClusterCentrality": -0.6736120658207899,
+                "ClusterBridging": -0.3407927652888841,
+                "Cluster_ID": "Cluster_1",
+                "label": "Collaborator",
+                "x_tsne": 49.85442352294922,
+                "y_tsne": -53.948890686035156,
+                "OriginalLabel": "Collaborator",
+                "OriginalX": 49.85442352294922,
+                "OriginalY": -53.948890686035156,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "1",
+            "attr": {
+                "id": 1,
+                "Creative Habit": "Comforting Mess",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 2650,
+                "Percent": 27.51,
+                "Cluster_size": 18,
+                "Degree": 4,
+                "ClusterCentrality": -0.1191236423689298,
+                "ClusterBridging": -0.7757692790861835,
+                "Cluster_ID": "Cluster_1",
+                "label": "Comforting Mess",
+                "x_tsne": 66.29443359375,
+                "y_tsne": 78.04835510253906,
+                "OriginalLabel": "Comforting Mess",
+                "OriginalX": 66.29443359375,
+                "OriginalY": 78.04835510253906,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "2",
+            "attr": {
+                "id": 2,
+                "Creative Habit": "Early Bird",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 1863,
+                "Percent": 19.34,
+                "Cluster_size": 9,
+                "Degree": 1,
+                "ClusterCentrality": -1.452526653003183,
+                "ClusterBridging": -1.022301296858885,
+                "Cluster_ID": "Cluster_3",
+                "label": "Early Bird",
+                "x_tsne": -80.38250732421875,
+                "y_tsne": -65.82841491699219,
+                "OriginalLabel": "Early Bird",
+                "OriginalX": -80.38250732421875,
+                "OriginalY": -65.82841491699219,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "3",
+            "attr": {
+                "id": 3,
+                "Creative Habit": "Externally Motivated",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 3224,
+                "Percent": 33.47,
+                "Cluster_size": 9,
+                "Degree": 8,
+                "ClusterCentrality": 0.2627771435644723,
+                "ClusterBridging": -0.4027293972079344,
+                "Cluster_ID": "Cluster_3",
+                "label": "Externally Motivated",
+                "x_tsne": -9.075311660766602,
+                "y_tsne": -77.80518341064453,
+                "OriginalLabel": "Externally Motivated",
+                "OriginalX": -9.075311660766602,
+                "OriginalY": -77.80518341064453,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "4",
+            "attr": {
+                "id": 4,
+                "Creative Habit": "Fast-Paced",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 2211,
+                "Percent": 22.95,
+                "Cluster_size": 18,
+                "Degree": 3,
+                "ClusterCentrality": -0.5347670002130738,
+                "ClusterBridging": -0.7757692790861835,
+                "Cluster_ID": "Cluster_1",
+                "label": "Fast-Paced",
+                "x_tsne": 90.69221496582031,
+                "y_tsne": 41.04593276977539,
+                "OriginalLabel": "Fast-Paced",
+                "OriginalX": 90.69221496582031,
+                "OriginalY": 41.04593276977539,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "5",
+            "attr": {
+                "id": 5,
+                "Creative Habit": "Generalist",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 3668,
+                "Percent": 38.08,
+                "Cluster_size": 18,
+                "Degree": 9,
+                "ClusterCentrality": 0.6835073597795623,
+                "ClusterBridging": -0.47254578972427,
+                "Cluster_ID": "Cluster_1",
+                "label": "Generalist",
+                "x_tsne": 70.01093292236328,
+                "y_tsne": 33.56045532226562,
+                "OriginalLabel": "Generalist",
+                "OriginalX": 70.01093292236328,
+                "OriginalY": 33.56045532226562,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "6",
+            "attr": {
+                "id": 6,
+                "Creative Habit": "Dislike Distractions",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 4599,
+                "Percent": 47.74,
+                "Cluster_size": 9,
+                "Degree": 20,
+                "ClusterCentrality": 1.088926304103183,
+                "ClusterBridging": 2.10507320681426,
+                "Cluster_ID": "Cluster_3",
+                "label": "Dislike Distractions",
+                "x_tsne": -23.64078330993652,
+                "y_tsne": -31.57724761962891,
+                "OriginalLabel": "Dislike Distractions",
+                "OriginalX": -23.64078330993652,
+                "OriginalY": -31.57724761962891,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "7",
+            "attr": {
+                "id": 7,
+                "Creative Habit": "Internally Motivated",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 3926,
+                "Percent": 40.76,
+                "Cluster_size": 18,
+                "Degree": 11,
+                "ClusterCentrality": -0.7610615617735423,
+                "ClusterBridging": 1.926388707088878,
+                "Cluster_ID": "Cluster_1",
+                "label": "Internally Motivated",
+                "x_tsne": 8.964276313781738,
+                "y_tsne": 35.16080093383789,
+                "OriginalLabel": "Internally Motivated",
+                "OriginalX": 8.964276313781738,
+                "OriginalY": 35.16080093383789,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "8",
+            "attr": {
+                "id": 8,
+                "Creative Habit": "Intuitive",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 2113,
+                "Percent": 21.94,
+                "Cluster_size": 18,
+                "Degree": 3,
+                "ClusterCentrality": -0.5347670002130738,
+                "ClusterBridging": -0.7757692790861835,
+                "Cluster_ID": "Cluster_1",
+                "label": "Intuitive",
+                "x_tsne": 29.2535457611084,
+                "y_tsne": 30.92589569091797,
+                "OriginalLabel": "Intuitive",
+                "OriginalX": 29.2535457611084,
+                "OriginalY": 30.92589569091797,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "9",
+            "attr": {
+                "id": 9,
+                "Creative Habit": "Inwardly Inspired",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 2701,
+                "Percent": 28.04,
+                "Cluster_size": 15,
+                "Degree": 4,
+                "ClusterCentrality": -0.9438849447775486,
+                "ClusterBridging": -0.02734856890409789,
+                "Cluster_ID": "Cluster_2",
+                "label": "Inwardly Inspired",
+                "x_tsne": -6.124770641326903,
+                "y_tsne": 55.30690002441406,
+                "OriginalLabel": "Inwardly Inspired",
+                "OriginalX": -6.124770641326903,
+                "OriginalY": 55.30690002441406,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "10",
+            "attr": {
+                "id": 10,
+                "Creative Habit": "Kinetic",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 3232,
+                "Percent": 33.55,
+                "Cluster_size": 18,
+                "Degree": 7,
+                "ClusterCentrality": -0.48140530565881,
+                "ClusterBridging": 0.2643264826958345,
+                "Cluster_ID": "Cluster_1",
+                "label": "Kinetic",
+                "x_tsne": 45.91747283935547,
+                "y_tsne": -12.44028759002686,
+                "OriginalLabel": "Kinetic",
+                "OriginalX": 45.91747283935547,
+                "OriginalY": -12.44028759002686,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "11",
+            "attr": {
+                "id": 11,
+                "Creative Habit": "Let It Happen",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 3755,
+                "Percent": 38.98,
+                "Cluster_size": 18,
+                "Degree": 10,
+                "ClusterCentrality": 1.041364044474911,
+                "ClusterBridging": -0.4931897954360983,
+                "Cluster_ID": "Cluster_1",
+                "label": "Let It Happen",
+                "x_tsne": 47.18380355834961,
+                "y_tsne": 22.6389102935791,
+                "OriginalLabel": "Let It Happen",
+                "OriginalX": 47.18380355834961,
+                "OriginalY": 22.6389102935791,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "12",
+            "attr": {
+                "id": 12,
+                "Creative Habit": "Love Distractions",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 2138,
+                "Percent": 22.19,
+                "Cluster_size": 18,
+                "Degree": 2,
+                "ClusterCentrality": -0.950410358057218,
+                "ClusterBridging": -0.7757692790861835,
+                "Cluster_ID": "Cluster_1",
+                "label": "Love Distractions",
+                "x_tsne": 97.45013427734376,
+                "y_tsne": -5.4671597480773935,
+                "OriginalLabel": "Love Distractions",
+                "OriginalX": 97.45013427734376,
+                "OriginalY": -5.4671597480773935,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "13",
+            "attr": {
+                "id": 13,
+                "Creative Habit": "Make It Happen",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 2829,
+                "Percent": 29.37,
+                "Cluster_size": 9,
+                "Degree": 6,
+                "ClusterCentrality": -0.6408943575437744,
+                "ClusterBridging": -0.06822936411910957,
+                "Cluster_ID": "Cluster_3",
+                "label": "Make It Happen",
+                "x_tsne": -32.61046981811523,
+                "y_tsne": -64.19363403320311,
+                "OriginalLabel": "Make It Happen",
+                "OriginalX": -32.61046981811523,
+                "OriginalY": -64.19363403320311,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "14",
+            "attr": {
+                "id": 14,
+                "Creative Habit": "Monotasker",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 3471,
+                "Percent": 36.03,
+                "Cluster_size": 15,
+                "Degree": 10,
+                "ClusterCentrality": 1.5118922869054698,
+                "ClusterBridging": -0.306659292638826,
+                "Cluster_ID": "Cluster_2",
+                "label": "Monotasker",
+                "x_tsne": -102.1326217651367,
+                "y_tsne": -15.610452651977539,
+                "OriginalLabel": "Monotasker",
+                "OriginalX": -102.1326217651367,
+                "OriginalY": -15.610452651977539,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "15",
+            "attr": {
+                "id": 15,
+                "Creative Habit": "Multitasker",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 3607,
+                "Percent": 37.44,
+                "Cluster_size": 18,
+                "Degree": 11,
+                "ClusterCentrality": 1.404197894887118,
+                "ClusterBridging": -0.5109633121908734,
+                "Cluster_ID": "Cluster_1",
+                "label": "Multitasker",
+                "x_tsne": 79.9084243774414,
+                "y_tsne": 58.00098037719727,
+                "OriginalLabel": "Multitasker",
+                "OriginalX": 79.9084243774414,
+                "OriginalY": 58.00098037719727,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "16",
+            "attr": {
+                "id": 16,
+                "Creative Habit": "Nature-Lover",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 2686,
+                "Percent": 27.88,
+                "Cluster_size": 18,
+                "Degree": 5,
+                "ClusterCentrality": 0.2965197154752142,
+                "ClusterBridging": -0.7757692790861835,
+                "Cluster_ID": "Cluster_1",
+                "label": "Nature-Lover",
+                "x_tsne": 62.28196716308594,
+                "y_tsne": 3.5175728797912598,
+                "OriginalLabel": "Nature-Lover",
+                "OriginalX": 62.28196716308594,
+                "OriginalY": 3.5175728797912598,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "17",
+            "attr": {
+                "id": 17,
+                "Creative Habit": "Night Owl",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 4173,
+                "Percent": 43.32,
+                "Cluster_size": 15,
+                "Degree": 14,
+                "ClusterCentrality": -0.1578953709362113,
+                "ClusterBridging": 2.203556739305253,
+                "Cluster_ID": "Cluster_2",
+                "label": "Night Owl",
+                "x_tsne": -7.530689716339111,
+                "y_tsne": 7.053974151611327,
+                "OriginalLabel": "Night Owl",
+                "OriginalX": -7.530689716339111,
+                "OriginalY": 7.053974151611327,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "18",
+            "attr": {
+                "id": 18,
+                "Creative Habit": "Noise/Music",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 2721,
+                "Percent": 28.25,
+                "Cluster_size": 18,
+                "Degree": 5,
+                "ClusterCentrality": -0.6736120658207899,
+                "ClusterBridging": -0.3407927652888841,
+                "Cluster_ID": "Cluster_1",
+                "label": "Noise/Music",
+                "x_tsne": 105.7674407958984,
+                "y_tsne": 66.95217895507811,
+                "OriginalLabel": "Noise/Music",
+                "OriginalX": 105.7674407958984,
+                "OriginalY": 66.95217895507811,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "19",
+            "attr": {
+                "id": 19,
+                "Creative Habit": "NonKinetic",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 1942,
+                "Percent": 20.16,
+                "Cluster_size": 15,
+                "Degree": 2,
+                "ClusterCentrality": -0.4594544897356852,
+                "ClusterBridging": -1.03180359869788,
+                "Cluster_ID": "Cluster_2",
+                "label": "NonKinetic",
+                "x_tsne": -79.37813568115234,
+                "y_tsne": 64.90522766113281,
+                "OriginalLabel": "NonKinetic",
+                "OriginalX": -79.37813568115234,
+                "OriginalY": 64.90522766113281,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "20",
+            "attr": {
+                "id": 20,
+                "Creative Habit": "Novelty-Seeker",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 4646,
+                "Percent": 48.23,
+                "Cluster_size": 18,
+                "Degree": 20,
+                "ClusterCentrality": 1.4478217929596129,
+                "ClusterBridging": 1.3151812575873139,
+                "Cluster_ID": "Cluster_1",
+                "label": "Novelty-Seeker",
+                "x_tsne": 75.86820220947266,
+                "y_tsne": -16.64401626586914,
+                "OriginalLabel": "Novelty-Seeker",
+                "OriginalX": 75.86820220947266,
+                "OriginalY": -16.64401626586914,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "21",
+            "attr": {
+                "id": 21,
+                "Creative Habit": "Tidy",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 2590,
+                "Percent": 26.89,
+                "Cluster_size": 9,
+                "Degree": 5,
+                "ClusterCentrality": -1.480630401782192,
+                "ClusterBridging": -0.2962868573688098,
+                "Cluster_ID": "Cluster_3",
+                "label": "Tidy",
+                "x_tsne": -42.96531677246094,
+                "y_tsne": -22.33566856384277,
+                "OriginalLabel": "Tidy",
+                "OriginalX": -42.96531677246094,
+                "OriginalY": -22.33566856384277,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "22",
+            "attr": {
+                "id": 22,
+                "Creative Habit": "Outwardly Inspired",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 3914,
+                "Percent": 40.63,
+                "Cluster_size": 9,
+                "Degree": 11,
+                "ClusterCentrality": 0.2134200844396119,
+                "ClusterBridging": 0.264348563559154,
+                "Cluster_ID": "Cluster_3",
+                "label": "Outwardly Inspired",
+                "x_tsne": 14.911903381347662,
+                "y_tsne": -59.70052719116211,
+                "OriginalLabel": "Outwardly Inspired",
+                "OriginalX": 14.911903381347662,
+                "OriginalY": -59.70052719116211,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "23",
+            "attr": {
+                "id": 23,
+                "Creative Habit": "Perfectionist",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 2260,
+                "Percent": 23.46,
+                "Cluster_size": 15,
+                "Degree": 2,
+                "ClusterCentrality": -1.293327652349789,
+                "ClusterBridging": -0.5295760838009889,
+                "Cluster_ID": "Cluster_2",
+                "label": "Perfectionist",
+                "x_tsne": 19.29078674316406,
+                "y_tsne": 97.24014282226562,
+                "OriginalLabel": "Perfectionist",
+                "OriginalX": 19.29078674316406,
+                "OriginalY": 97.24014282226562,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "24",
+            "attr": {
+                "id": 24,
+                "Creative Habit": "Pragmatist",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 2522,
+                "Percent": 26.18,
+                "Cluster_size": 15,
+                "Degree": 2,
+                "ClusterCentrality": -1.293327652349789,
+                "ClusterBridging": -0.5295760838009889,
+                "Cluster_ID": "Cluster_2",
+                "label": "Pragmatist",
+                "x_tsne": -40.13519668579102,
+                "y_tsne": 66.25762939453125,
+                "OriginalLabel": "Pragmatist",
+                "OriginalX": -40.13519668579102,
+                "OriginalY": 66.25762939453125,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "25",
+            "attr": {
+                "id": 25,
+                "Creative Habit": "Private Spaces",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 4367,
+                "Percent": 45.33,
+                "Cluster_size": 15,
+                "Degree": 18,
+                "ClusterCentrality": 1.322893453177221,
+                "ClusterBridging": 1.852027983099782,
+                "Cluster_ID": "Cluster_2",
+                "label": "Private Spaces",
+                "x_tsne": -45.27544021606445,
+                "y_tsne": 5.68483304977417,
+                "OriginalLabel": "Private Spaces",
+                "OriginalX": -45.27544021606445,
+                "OriginalY": 5.68483304977417,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "26",
+            "attr": {
+                "id": 26,
+                "Creative Habit": "Public Spaces",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 1335,
+                "Percent": 13.86,
+                "Cluster_size": 18,
+                "Degree": 1,
+                "ClusterCentrality": -1.366053715901362,
+                "ClusterBridging": -0.7757692790861835,
+                "Cluster_ID": "Cluster_1",
+                "label": "Public Spaces",
+                "x_tsne": 84.30425262451172,
+                "y_tsne": -32.391189575195305,
+                "OriginalLabel": "Public Spaces",
+                "OriginalX": 84.30425262451172,
+                "OriginalY": -32.391189575195305,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "27",
+            "attr": {
+                "id": 27,
+                "Creative Habit": "Rational",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 2517,
+                "Percent": 26.13,
+                "Cluster_size": 9,
+                "Degree": 4,
+                "ClusterCentrality": 1.702104638906109,
+                "ClusterBridging": -1.022301296858885,
+                "Cluster_ID": "Cluster_3",
+                "label": "Rational",
+                "x_tsne": -12.660913467407232,
+                "y_tsne": -57.06217956542969,
+                "OriginalLabel": "Rational",
+                "OriginalX": -12.660913467407232,
+                "OriginalY": -57.06217956542969,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "28",
+            "attr": {
+                "id": 28,
+                "Creative Habit": "Reframer",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 4324,
+                "Percent": 44.89,
+                "Cluster_size": 18,
+                "Degree": 15,
+                "ClusterCentrality": -0.09390446288482474,
+                "ClusterBridging": 2.175698312740123,
+                "Cluster_ID": "Cluster_1",
+                "label": "Reframer",
+                "x_tsne": 29.47772789001465,
+                "y_tsne": -34.85673141479492,
+                "OriginalLabel": "Reframer",
+                "OriginalX": 29.47772789001465,
+                "OriginalY": -34.85673141479492,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "29",
+            "attr": {
+                "id": 29,
+                "Creative Habit": "Risk-Averse",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 3205,
+                "Percent": 33.27,
+                "Cluster_size": 15,
+                "Degree": 10,
+                "ClusterCentrality": 0.4791201687346309,
+                "ClusterBridging": 0.9187488178646294,
+                "Cluster_ID": "Cluster_2",
+                "label": "Risk-Averse",
+                "x_tsne": -77.68546295166016,
+                "y_tsne": -10.776320457458501,
+                "OriginalLabel": "Risk-Averse",
+                "OriginalX": -77.68546295166016,
+                "OriginalY": -10.776320457458501,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "30",
+            "attr": {
+                "id": 30,
+                "Creative Habit": "Risk-Friendly",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 4283,
+                "Percent": 44.46,
+                "Cluster_size": 18,
+                "Degree": 20,
+                "ClusterCentrality": 2.275755309715603,
+                "ClusterBridging": 0.3351919690654312,
+                "Cluster_ID": "Cluster_1",
+                "label": "Risk-Friendly",
+                "x_tsne": 92.12572479248048,
+                "y_tsne": 19.73722267150879,
+                "OriginalLabel": "Risk-Friendly",
+                "OriginalX": 92.12572479248048,
+                "OriginalY": 19.73722267150879,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "31",
+            "attr": {
+                "id": 31,
+                "Creative Habit": "Routine-Seeker",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 2852,
+                "Percent": 29.61,
+                "Cluster_size": 15,
+                "Degree": 7,
+                "ClusterCentrality": -0.2364952735031502,
+                "ClusterBridging": 0.4526224364030547,
+                "Cluster_ID": "Cluster_2",
+                "label": "Routine-Seeker",
+                "x_tsne": -63.14214706420898,
+                "y_tsne": -27.14270973205566,
+                "OriginalLabel": "Routine-Seeker",
+                "OriginalX": -63.14214706420898,
+                "OriginalY": -27.14270973205566,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "32",
+            "attr": {
+                "id": 32,
+                "Creative Habit": "Self-Assured",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 1676,
+                "Percent": 17.4,
+                "Cluster_size": 18,
+                "Degree": 1,
+                "ClusterCentrality": -1.366053715901362,
+                "ClusterBridging": -0.7757692790861835,
+                "Cluster_ID": "Cluster_1",
+                "label": "Self-Assured",
+                "x_tsne": 111.3938446044922,
+                "y_tsne": 20.38990592956543,
+                "OriginalLabel": "Self-Assured",
+                "OriginalX": 111.3938446044922,
+                "OriginalY": 20.38990592956543,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "33",
+            "attr": {
+                "id": 33,
+                "Creative Habit": "Self-Critical",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 3367,
+                "Percent": 34.95,
+                "Cluster_size": 15,
+                "Degree": 8,
+                "ClusterCentrality": 0.4025757660046688,
+                "ClusterBridging": -0.4988005236363361,
+                "Cluster_ID": "Cluster_2",
+                "label": "Self-Critical",
+                "x_tsne": -73.62467956542969,
+                "y_tsne": 13.43938446044922,
+                "OriginalLabel": "Self-Critical",
+                "OriginalX": -73.62467956542969,
+                "OriginalY": 13.43938446044922,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "34",
+            "attr": {
+                "id": 34,
+                "Creative Habit": "Quiet/Silence",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 4105,
+                "Percent": 42.61,
+                "Cluster_size": 9,
+                "Degree": 14,
+                "ClusterCentrality": 0.007529047639649895,
+                "ClusterBridging": 1.2351372946363173,
+                "Cluster_ID": "Cluster_3",
+                "label": "Quiet/Silence",
+                "x_tsne": -71.34697723388672,
+                "y_tsne": -51.5923957824707,
+                "OriginalLabel": "Quiet/Silence",
+                "OriginalX": -71.34697723388672,
+                "OriginalY": -51.5923957824707,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "35",
+            "attr": {
+                "id": 35,
+                "Creative Habit": "Slow-Paced",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 2524,
+                "Percent": 26.2,
+                "Cluster_size": 15,
+                "Degree": 5,
+                "ClusterCentrality": -0.06543903650827923,
+                "ClusterBridging": -0.6692314456683529,
+                "Cluster_ID": "Cluster_2",
+                "label": "Slow-Paced",
+                "x_tsne": -95.97940826416016,
+                "y_tsne": 9.842041015625,
+                "OriginalLabel": "Slow-Paced",
+                "OriginalX": -95.97940826416016,
+                "OriginalY": 9.842041015625,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "36",
+            "attr": {
+                "id": 36,
+                "Creative Habit": "Solo Creator",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 4511,
+                "Percent": 46.83,
+                "Cluster_size": 15,
+                "Degree": 18,
+                "ClusterCentrality": 2.158918982018525,
+                "ClusterBridging": 0.8540042202310733,
+                "Cluster_ID": "Cluster_2",
+                "label": "Solo Creator",
+                "x_tsne": -52.747825622558594,
+                "y_tsne": 39.2223014831543,
+                "OriginalLabel": "Solo Creator",
+                "OriginalX": -52.747825622558594,
+                "OriginalY": 39.2223014831543,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "37",
+            "attr": {
+                "id": 37,
+                "Creative Habit": "Specialist",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 1517,
+                "Percent": 15.75,
+                "Cluster_size": 15,
+                "Degree": 1,
+                "ClusterCentrality": -1.051112424828857,
+                "ClusterBridging": -1.03180359869788,
+                "Cluster_ID": "Cluster_2",
+                "label": "Specialist",
+                "x_tsne": -118.14883422851558,
+                "y_tsne": -20.973163604736328,
+                "OriginalLabel": "Specialist",
+                "OriginalX": -118.14883422851558,
+                "OriginalY": -20.973163604736328,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "38",
+            "attr": {
+                "id": 38,
+                "Creative Habit": "Stifled By Constraints",
+                "Most Central Habits": "Risk Friendly, Novelty Seeker, Multitasker",
+                "Frequency": 4132,
+                "Percent": 42.89,
+                "Cluster_size": 18,
+                "Degree": 16,
+                "ClusterCentrality": 0.4056047773217579,
+                "ClusterBridging": 1.5718826523547151,
+                "Cluster_ID": "Cluster_1",
+                "label": "Stifled By Constraints",
+                "x_tsne": 47.58038330078125,
+                "y_tsne": 58.38994598388672,
+                "OriginalLabel": "Stifled By Constraints",
+                "OriginalX": 47.58038330078125,
+                "OriginalY": 58.38994598388672,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "39",
+            "attr": {
+                "id": 39,
+                "Creative Habit": "Stimulated By Constraints",
+                "Most Central Habits": "Rational, Hate Distractions, Stimulated By Constraints",
+                "Frequency": 2945,
+                "Percent": 30.57,
+                "Cluster_size": 9,
+                "Degree": 5,
+                "ClusterCentrality": 0.2992941936761252,
+                "ClusterBridging": -0.7927108525961083,
+                "Cluster_ID": "Cluster_3",
+                "label": "Stimulated By Constraints",
+                "x_tsne": 13.084299087524409,
+                "y_tsne": -84.24723052978516,
+                "OriginalLabel": "Stimulated By Constraints",
+                "OriginalX": 13.084299087524409,
+                "OriginalY": -84.24723052978516,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "40",
+            "attr": {
+                "id": 40,
+                "Creative Habit": "Tenacious",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 2796,
+                "Percent": 29.03,
+                "Cluster_size": 15,
+                "Degree": 4,
+                "ClusterCentrality": -0.5066672572086935,
+                "ClusterBridging": -0.6243574023605589,
+                "Cluster_ID": "Cluster_2",
+                "label": "Tenacious",
+                "x_tsne": -28.713542938232422,
+                "y_tsne": 22.14179611206055,
+                "OriginalLabel": "Tenacious",
+                "OriginalX": -28.713542938232422,
+                "OriginalY": 22.14179611206055,
+                "OriginalSize": 10
+            }
+        },
+        {
+            "id": "41",
+            "attr": {
+                "id": 41,
+                "Creative Habit": "Nature-Agnostic",
+                "Most Central Habits": "Solo Creator, Monotasker, Private",
+                "Frequency": 2125,
+                "Percent": 22.06,
+                "Cluster_size": 15,
+                "Degree": 3,
+                "ClusterCentrality": 0.1322034453574866,
+                "ClusterBridging": -1.03180359869788,
+                "Cluster_ID": "Cluster_2",
+                "label": "Nature-Agnostic",
+                "x_tsne": -73.81731414794922,
+                "y_tsne": 50.335472106933594,
+                "OriginalLabel": "Nature-Agnostic",
+                "OriginalX": -73.81731414794922,
+                "OriginalY": 50.335472106933594,
+                "OriginalSize": 10
+            }
+        }
+    ]
+}

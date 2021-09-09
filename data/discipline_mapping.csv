@@ -1,0 +1,116 @@
+Discipline,mapTo,count,percent
+Art,Arts-Design,2739,28.43
+Design,Arts-Design,1895,19.67
+Music,Arts-Design,1873,19.44
+Photography,Arts-Design,1381,14.34
+VisualArt,Arts-Design,1323,13.73
+GraphicDesign,Arts-Design,1208,12.54
+Film/Television,Arts-Design,1065,11.06
+Singer,Arts-Design,698,7.25
+Acting,Arts-Design,637,6.61
+Fashion,Arts-Design,584,6.06
+Dance,Arts-Design,568,5.9
+Composer,Arts-Design,560,5.81
+Theater,Arts-Design,470,4.88
+SpokenWord,Arts-Design,458,4.75
+DJ,Arts-Design,412,4.28
+Animation,Arts-Design,378,3.92
+Sculpture,Arts-Design,363,3.77
+Industrial Design,Arts-Design,2,0.02
+Crafts,Arts-Design,2,0.02
+Web Design,Arts-Design,2,0.02
+Interior Design,Arts-Design,2,0.02
+Painting,Arts-Design,2,0.02
+Pantomime,Arts-Design,1,0.01
+Potter,Arts-Design,1,0.01
+standup comedy,Arts-Design,1,0.01
+Stand-up Comedy,Arts-Design,1,0.01
+illustration,Arts-Design,1,0.01
+3D and also videography,Arts-Design,1,0.01
+"Hip hop and mcing, meditation, martial arts, spoken word peotry, firedancing",Arts-Design,1,0.01
+Game Designer,Arts-Design,1,0.01
+Cinematography,Arts-Design,1,0.01
+Art Therapy,Arts-Design,1,0.01
+Lighting Design,Arts-Design,1,0.01
+photography,Arts-Design,1,0.01
+Illustration,Arts-Design,1,0.01
+3D Artist,Arts-Design,1,0.01
+"Improv comedy, stand up comedy",Arts-Design,1,0.01
+Rap,Arts-Design,1,0.01
+Performance Art,Arts-Design,1,0.01
+"Juggling, flow arts, etc.",Arts-Design,1,0.01
+Videography,Arts-Design,1,0.01
+Cinematography/Digital Art,Arts-Design,1,0.01
+performance art,Arts-Design,1,0.01
+ceramics,Arts-Design,1,0.01
+Poetry/Rap,Arts-Design,1,0.01
+Rapper,Arts-Design,1,0.01
+advertising and experience design,Arts-Design,1,0.01
+User Experience Design,Arts-Design,1,0.01
+web graphics to food to home crafts and design,Arts-Design,1,0.01
+UX & UI design,Arts-Design,1,0.01
+UI/UX Design,Arts-Design,1,0.01
+Brand Design,Arts-Design,1,0.01
+User Experience,Arts-Design,1,0.01
+Entrepreneurship,Business-Entrepreneurship,1308,13.58
+Business,Business-Entrepreneurship,1289,13.38
+SocialEnterprise,Business-Entrepreneurship,244,2.53
+Finance,Business-Entrepreneurship,2,0.02
+Bar Operator,Business-Entrepreneurship,1,0.01
+Real Estate Broker - Entrepreneur,Business-Entrepreneurship,1,0.01
+Finance/Investment Mgmt,Business-Entrepreneurship,1,0.01
+PR/Marketing,Business-Entrepreneurship,1,0.01
+"Entrepreneur, Art Business Startup",Business-Entrepreneurship,1,0.01
+Evolutionary biology,Science-Engineering,1,0.01
+Technology,Science-Engineering,998,10.36
+Research,Science-Engineering,933,9.69
+Science,Science-Engineering,766,7.95
+Invention,Science-Engineering,633,6.57
+Engineering,Science-Engineering,630,6.54
+Biology,Science-Engineering,366,3.8
+DataVisualization,Science-Engineering,362,3.76
+DataScience,Science-Engineering,326,3.38
+Agriculture,Science-Engineering,318,3.3
+Physics,Science-Engineering,317,3.29
+Astronomy,Science-Engineering,314,3.26
+Conservation,Science-Engineering,292,3.03
+SoftwareEngineering,Science-Engineering,292,3.03
+Neuroscience,Science-Engineering,290,3.01
+Medicine,Science-Engineering,285,2.96
+HumanBiology,Science-Engineering,258,2.68
+GreenEnergy,Science-Engineering,251,2.61
+Chemistry,Science-Engineering,233,2.42
+Ecology,Science-Engineering,232,2.41
+Botany,Science-Engineering,204,2.12
+QuantamPhysics,Science-Engineering,185,1.92
+Robotics,Science-Engineering,178,1.85
+OpenSource,Science-Engineering,167,1.73
+Genetics,Science-Engineering,160,1.66
+Astrophysics,Science-Engineering,159,1.65
+HardwareEngineering ,Science-Engineering,142,1.47
+Zoology,Science-Engineering,136,1.41
+Archeology,Science-Engineering,126,1.31
+Bioengineering,Science-Engineering,117,1.21
+SmartMaterials,Science-Engineering,79,0.82
+ComputationalBiology,Science-Engineering,52,0.54
+Paleontology,Science-Engineering,46,0.48
+Mathematics,Science-Engineering,4,0.04
+Coding,Science-Engineering,3,0.03
+Geology,Science-Engineering,2,0.02
+Sport Science,Science-Engineering,1,0.01
+digital health,Science-Engineering,1,0.01
+Mad Scientist/Engineer,Science-Engineering,1,0.01
+Aviation Technician,Science-Engineering,1,0.01
+programming,Science-Engineering,1,0.01
+Aircraft Mechanic,Science-Engineering,1,0.01
+Oceanography,Science-Engineering,1,0.01
+Computer Programming,Science-Engineering,1,0.01
+Wildlife Biology,Science-Engineering,1,0.01
+"mad scientist, social architect",Science-Engineering,1,0.01
+Climate science,Science-Engineering,1,0.01
+Statistics,Science-Engineering,1,0.01
+Computer Science/Coding,Science-Engineering,1,0.01
+Artificial intelligence,Science-Engineering,1,0.01
+Wildlife Veterinary Medicine,Science-Engineering,1,0.01
+Database Manager,Science-Engineering,1,0.01
+Information Technology -software and networking,Science-Engineering,1,0.01
